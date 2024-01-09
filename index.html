@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+	"http://www.w3.org/TR/html4/strict.dtd"> 
+
+<html>
+<head>
+<title>Mechanicus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #748AA1 url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/bg_top.jpg') repeat-x top center;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px; 
+	line-height: 1.7em;
+}
+
+div#wrapper{
+	background: #AAD5DB url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/bg_wrapper.jpg') repeat-y;
+	width: 950px;
+	margin: 0 auto;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+.clearfloats {
+	overflow: hidden !important;
+	height: auto !important;
+	overflow: visible;
+	overflow-x: hidden;
+	height: 0;
+}
+
+/**//*/ 
+.clearfloats {display: inline-block;}
+/**/
+
+.clear {
+	clear: both;
+}
+
+
+/* HEADER */
+
+div#header {
+	background: url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/header.jpg') no-repeat;
+	width: 570px;
+	height: 70px;
+	padding: 83px 50px 73px 330px;
+}
+
+div#header h1 {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 3.7em;
+	line-height: 53px;
+	font-weight: normal;
+	color: #6D6D6E;
+	text-align: center;
+	letter-spacing: -0.06em;
+	text-shadow: #ffffff 0 0 15px;
+	opacity: 0.7;
+}
+
+div#tagline {
+	line-height: 17px;
+	text-align: right;
+	color: #444444;
+	font-style: italic;
+}
+
+
+/* TOP NAVIGATION */
+
+div#access {
+	background: url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/access.jpg') no-repeat;
+	width: 830px;
+	height: 38px;
+	padding: 0 60px 22px 60px;
+	text-align: center;
+}
+
+div#access ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+	line-height: 38px;
+}
+
+div#access li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.2em;
+}
+
+div#access li a {
+	display: inline-block;
+	color: #4F4F4F;
+	padding: 0 10px;
+}
+
+div#access li.active a {
+	background: #6D6D6E;
+	color: #EEF0F1;
+}
+
+div#access li a:hover {
+	background: #B14866;
+	color: #EEF0F1;
+}
+
+
+/* MAIN */
+
+div#main {
+	background: url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/bg_main.jpg') no-repeat;
+	height: auto !important;
+	height: 150px;
+	min-height: 150px;
+	width: 904px;
+	padding: 0 23px 100px 23px;
+}
+
+/* Content section */
+
+div#content {
+	float: left;
+	width: 617px;
+	padding: 10px 30px 30px 30px;
+	color: #242424; 
+	text-align: left;
+}
+
+div#content h1 {
+	font-size: 2.5em; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #777777; 
+	text-align: center; 
+	font-weight: normal; 
+	font-variant: small-caps; 
+	background: #c5cbce url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/grey.jpg') repeat-y;
+	margin-left: -30px;
+	margin-right: -30px;
+	padding: 12px 20px 12px 20px;
+	border-top: solid 2px #a1c9cc;
+	border-bottom: solid 2px #a1c9cc;
+}
+
+h2 {
+	font-size: 2em; 
+	color: #ac1942; 
+	text-align: left; 
+	font-variant: small-caps; 
+	font-weight: normal; 
+}
+
+h3 {
+	font-size: 1.6em; 
+	color: #986e47; 
+	text-align: left; 
+	font-weight: normal; 
+}
+
+.center {
+	text-align: center;
+}
+
+a {
+	color: #ac1942; 
+	text-decoration: none;
+}
+
+a:hover	{
+	color: #ea393b; 
+}
+
+ul {
+	list-style-type: circle;
+}
+
+blockquote, 
+.box {
+	background: #c5cbce url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/grey.jpg') repeat-y right;
+	margin-left: 40px;
+	margin-right: -30px;
+	padding: 10px 30px 10px 20px;
+	border: solid 2px #dce6ec;
+	border-right: none;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+code {
+	background: #ced6da;
+	border: solid 1px #babec1;
+	padding: 1px 3px;
+}
+
+/* Forms */
+
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form p {
+	margin: 8px 0;
+	text-align: right;
+}
+
+form label {
+	display: block;
+	background: #C3E2E5;
+	float: left;
+	width: 20%;
+	padding: 1px 5px;
+	margin: 0;
+	text-align: left;
+}
+
+form input, 
+form select, 
+form textarea {
+	background: #c5cbce url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/form.jpg');
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	color: #454545;
+	border: solid 2px #dce6ec;
+	padding: 2px 5px;
+	margin: 0;
+	width: 74%;
+}
+
+input.formaction,
+input[type=submit],
+input[type=reset] {
+	width: 80px;
+	text-align: center;
+	background: #B14866;
+	color: #EEF0F1;
+}
+
+/* Sidebar */
+
+div#sidebar {
+	float: right;
+	clear: right;
+	width: 197px;
+	padding: 10px 10px 30px 20px;
+	font-size: 0.95em; 
+	line-height: normal;
+	color: #777777; 
+	text-align: left;
+}
+
+div#sidebar h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.3em; 
+	color: #909294; 
+	background: #ece6d3;
+	text-align: right; 
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 0.05em; 	
+	border: none;
+	margin-left: -9px;
+	margin-right: -10px;
+	padding: 0 20px;
+}
+
+div#sidebar ul {
+	list-style-type: none;
+	margin: 0 0 0 -20px;
+	padding-left: 0;
+}
+
+div#sidebar li {
+	letter-spacing: 0.1em;
+	margin: 4px 0 4px 0;
+	line-height: 1.85em;
+}
+
+div#sidebar li a { 
+	display: block;
+	width: 182px;
+	color: #626262;
+	border-bottom: solid 1px #cdd2bd;
+	border-left: solid 10px #cdd2bd;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+div#sidebar li a:hover {
+	border-left: solid 10px #b47986;
+	border-bottom: solid 1px #b47986;
+	background: #ebe2c1;
+}
+
+
+/* FOOTER */
+
+div#footer {
+	background: #dfdfe1 url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/bg_bottom.jpg') repeat-x top center;
+	width: 100%;
+	height: 195px;
+	margin-top: -195px;
+	text-align: center;
+}
+
+div#colophon{
+	background: url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/footer.jpg') no-repeat top center;
+	width: 950px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 125px 20px 0 20px;
+}
+
+div#site-info {
+	font-size: 0.9em;
+	line-height: 70px;
+	position: relative;
+}
+
+div#site-info p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Bottom tab */
+
+div#top-link {
+	position: absolute;
+	bottom: 51px;
+	left: 49px;
+	z-index: 2;
+	width: 106px;
+	height: 52px;
+}
+
+div#top-link a {
+	display: block;
+	margin: 0;
+	width: 106px;
+	line-height: 32px;
+	padding: 0 0 20px 0;
+	background: url('http://i218.photobucket.com/albums/cc286/yuiness/003_mechanicus/toplink.jpg') no-repeat;
+	color: #4F4F4F;
+}
+
+div#top-link a:hover {
+	background: none;
+	color: #EEF0F1;
+}
+</style>
+
+</head>
+ 
+<body>
+
+<div id="wrapper">
+
+	<div id="header">
+		
+		<!--BEGIN SITE TITLE -->
+	
+		<h1>Your Site Title</h1>
+		<div id="tagline">A short description of your site goes here. Keep it to one line.</div>
+
+		<!--END SITE TITLE -->
+ 
+	</div><!-- #header -->
+	
+	<div id="access">
+	
+		<!-- BEGIN TOP NAVIGATION -->
+	
+		<ul>
+			<li class="active"><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">Links</a></li>
+		</ul>
+	
+		<!-- END TOP NAVIGATION -->
+		
+	</div><!-- #access -->
+ 
+	<div id="main" class="clearfloats">
+	
+		<div id="content">
+		
+			<!-- BEGIN CONTENT SECTION -->
+		
+			<h1>Welcome</h1> 
+			
+			<h2>About</h2> 
+			<p>This layout was originally concieved as a layout for my now-defunct blog, LastSong.net. I made a few changes in order to turn it into a premade, including widening the layout from its original 770px width and increasing the font size for easier readability. I like this layout quite a bit, and I didn't expect to be able to turn what was originally a rather ugly picture into an interesting and unique layout. Give it a good home.</p> 
+
+			<h2>Use</h2> 
+			<p>You'll see <code>&lt;!-- --&gt;</code> tags that indicate the begining and end of the content and sidebar sections, so you'll only have to deal with the code between these markers. Basically, just delete this text and add your own. You shouldn't have too much trouble copying/pasting any necessary codes from what I have written.</p> 
+			<p>The navigation buttons at the top of the page can changed by editting the code between the tags <code>&lt;!-- BEGIN TOP NAVIGATION --&gt;</code> and <code>&lt;!-- END TOP NAVIGATION --&gt;</code>. I can't imagine that you'd need more links than the layout can accomodate, but please keep the links to 1 line. To make a link highlighted (as in "Home" above), add <code>class="active"</code> to the <code>&lt;li&gt;</code> tag.</p> 
+			<blockquote><p>This is a <code>blockquote</code>. You can also make content appear in a box like this by adding <code>class="box"</code> to any block-level element. For example, you can use <code>&lt;p class="box"&gt;</code> or <code>&lt;div class="box"&gt;</code>.</p></blockquote> 
+			
+			<h3>Stylesheets</h3>
+			<p>Stylesheets are in the <strong>style.css</strong> file, if you want to edit anything. This layout is designed for 1024x768 resolution or higher and was tested with IE 8, Firefox 2, and Google Chrome.</p> 
+			<p class="center">Valid <a href="http://validator.w3.org/check?uri=referer">HTML</a> and Valid <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a></p> 
+
+			<h2>Form</h2> 
+			<form action=""> 
+				<p><label for="name">Name:</label> <input name="name" id="name"></p> 
+				<p><label for="email">Email:</label> <input name="email" id="email"></p> 
+				<p><label for="message">Message:</label> <textarea name="message" id="message" rows="9" cols="50"></textarea></p> 
+				<p> 
+					<input type="submit" value="Submit" class="formaction"> 
+					<input type="reset" value="Reset" class="formaction"> 
+				</p> 
+			</form> 
+			
+			<h2>Credits</h2> 
+			<p>This layout features a photograph of some wires that I took myself, as well as several self-generated patterns and textures.</p> 
+			
+			<!-- END CONTENT SECTION -->
+		
+		</div><!-- #content -->
+ 
+		<div id="sidebar">
+		
+			<!-- BEGIN SIDEBAR -->
+		
+			<p>This is the sidebar. You can put a little profile or something here. You can also put your navigation here. Whatever you want is fine.</p> 
+
+			<h2>Header</h2> 
+			<ul> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+			</ul> 
+			
+			<h2>Header</h2> 
+			<ul> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+				<li><a href="">Linkage</a></li> 
+			</ul> 
+			
+			<h2>Credits</h2> 
+			<ul> 
+				<li><a href="http://www.pixelyes.com" title="Layout: PIXEL(YES)">PIXEL(YES)</a></li> 
+			</ul> 
+		
+			<!-- END SIDEBAR -->
+			
+		</div><!-- #sidebar -->
+		
+	</div><!-- #main -->
+
+</div><!-- #wrapper -->
+
+<div id="footer">
+	<div id="colophon">
+		
+		<div id="site-info">
+			<div id="top-link"><a href="#top">Back to Top</a></div>
+		
+			<!-- BEGIN FOOTER TEXT -->
+		
+			<p>Layout designed by <a href="http://www.pixelyes.com">PIXEL(YES)</a>. Site belongs to <a href="mailto:YOUR EMAIL">YOUR NAME</a>.</p>
+		
+			<!-- END FOOTER TEXT -->
+		
+		</div><!-- #site-info -->
+
+	</div><!-- #colophon -->
+</div><!-- #footer -->
+
+</body>
+</html>
